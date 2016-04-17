@@ -1,0 +1,28 @@
+<!-- <div id="example-one" contenteditable="true">
+<style scoped>
+  #example-one { margin-bottom: 10px; }
+  [contenteditable="true"] { padding: 10px; outline: 2px dashed #CCC; }
+  [contenteditable="true"]:hover { outline: 2px dashed #0090D2; }
+</style>
+<p>Everything contained within this div is editable in browsers that support <code>HTML5</code>. Go on, give it a try: click it and start typing.</p>
+</div> -->
+
+<!DOCTYPE html>
+<html ng-app="eidApp">
+<head>
+	<title>Make Editable Custom Directive</title>
+	<script src="angular.js"></script>
+	<script src="eid.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="page">
+		<div class="text">
+			<make-editable>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna non augue porttitor scelerisque ac id diam. Mauris elit velit, lobortis sed interdum at, vestibulum vitae libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis ligula ut ipsum mattis viverra.</make-editable>
+		</div>
+		<div class="text">
+			<make-editable>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac magna non augue porttitor scelerisque ac id diam. Mauris elit velit, lobortis sed interdum at, vestibulum vitae libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque iaculis ligula ut ipsum mattis viverra.</make-editable>
+		</div>
+	</div>
+</body>
+</html>
