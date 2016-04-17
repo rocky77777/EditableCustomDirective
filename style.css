@@ -26,5 +26,7 @@
 }
 
 button {
-	/*float: right;*/
+	width: 60px;
+	display: block;
+	margin: auto;
 }
